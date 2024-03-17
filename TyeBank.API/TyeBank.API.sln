@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyeBank.API", "TyeBank.API.csproj", "{3E2B43DD-06D7-4A41-B0F7-DA4BA7C524D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyeBank.Core", "..\TyeBank.Core\TyeBank.Core.csproj", "{78D8106B-EECD-4CFF-8F19-9AC85253DE7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyeBank.Repository", "..\TyeBank.Repository\TyeBank.Repository.csproj", "{FB790F9B-1751-42E1-9080-DF13E1C25947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyeBank.Service", "..\TyeBank.Service\TyeBank.Service.csproj", "{9DD403B9-4D11-4616-828A-DEAAF1EA5A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyeBank.Web", "..\TyeBank.Web\TyeBank.Web.csproj", "{A6C4AA10-93CE-4520-915A-84E1EAD87B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyeBank.Caching", "..\TyeBank.Caching\TyeBank.Caching.csproj", "{E9C26772-DA4F-4BE3-837F-DDA72105CC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E2B43DD-06D7-4A41-B0F7-DA4BA7C524D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2B43DD-06D7-4A41-B0F7-DA4BA7C524D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2B43DD-06D7-4A41-B0F7-DA4BA7C524D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2B43DD-06D7-4A41-B0F7-DA4BA7C524D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D8106B-EECD-4CFF-8F19-9AC85253DE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D8106B-EECD-4CFF-8F19-9AC85253DE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D8106B-EECD-4CFF-8F19-9AC85253DE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D8106B-EECD-4CFF-8F19-9AC85253DE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB790F9B-1751-42E1-9080-DF13E1C25947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB790F9B-1751-42E1-9080-DF13E1C25947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB790F9B-1751-42E1-9080-DF13E1C25947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB790F9B-1751-42E1-9080-DF13E1C25947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD403B9-4D11-4616-828A-DEAAF1EA5A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD403B9-4D11-4616-828A-DEAAF1EA5A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD403B9-4D11-4616-828A-DEAAF1EA5A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD403B9-4D11-4616-828A-DEAAF1EA5A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C4AA10-93CE-4520-915A-84E1EAD87B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C4AA10-93CE-4520-915A-84E1EAD87B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C4AA10-93CE-4520-915A-84E1EAD87B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C4AA10-93CE-4520-915A-84E1EAD87B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C26772-DA4F-4BE3-837F-DDA72105CC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C26772-DA4F-4BE3-837F-DDA72105CC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C26772-DA4F-4BE3-837F-DDA72105CC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C26772-DA4F-4BE3-837F-DDA72105CC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94BC96B3-7557-4AD5-8F2F-51F86F17160A}
+	EndGlobalSection
+EndGlobal

@@ -7,6 +7,8 @@ using TyeBank.Core.UnitOfWorks;
 using TyeBank.Repository;
 using TyeBank.Repository.Repositories;
 using TyeBank.Repository.UnitOfWork;
+using TyeBank.Service.Mappers;
+using TyeBank.Service.Services;
 using static TyeBank.Core.Repositories.IGenericRepository;
 
 namespace TyeBank.API
@@ -26,10 +28,12 @@ namespace TyeBank.API
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            //builder.Services.AddScoped(typeof(IService<>), typeof(Service<>)); // Henuz Service Katmanı yazılmadığı için ekleyemiyorum.
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));            
+            
+            builder.Services.AddScoped(typeof(IService<>), typeof(Service<>)); // Henuz Service Katmanı yazılmadığı için ekleyemiyorum.
+            //Yeni Not : Service katmanını yazdığım için burayı ekliyorum.
 
-
+            builder.Services.AddAutoMapper(typeof(MapProfile)); //AutoMapper'ı da çalışması için buraya ekliyorum.
 
 
             builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnectionString"),
